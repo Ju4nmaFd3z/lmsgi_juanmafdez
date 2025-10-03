@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo xmlns:dc="http://libros/anaya">
+
+  <libro>
+    <dc:title>El Quijote</dc:title>
+    <dc:creator>Anaya</dc:creator>
+    <dc:date>2015-06-15</dc:date>
+  </libro>
+
+</catalogo>

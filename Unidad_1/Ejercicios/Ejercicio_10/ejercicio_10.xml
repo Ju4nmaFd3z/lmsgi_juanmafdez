@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda xmlns:enlace="http://ejemplo/agenda" xml:lang="es">
+
+  <contacto id="c1">
+    <nombre>Juan Pérez</nombre>
+    <telefono type="móvil">+34 600 123 456</telefono>
+    <email>juanperez@gmail.com</email>
+    <enlace:direccion>
+      <enlace:calle>Calle Mayor 15</enlace:calle>
+      <enlace:ciudad>Madrid</enlace:ciudad>
+      <enlace:pais>España</enlace:pais>
+    </enlace:direccion>
+  </contacto>
+
+  <contacto id="c2">
+    <nombre>María López</nombre>
+    <telefono type="fijo">+34 912 345 678</telefono>
+    <email>marialopez@hotmail.com</email>
+    <enlace:direccion>
+      <enlace:calle>Avenida de Andalucía 22</enlace:calle>
+      <enlace:ciudad>Sevilla</enlace:ciudad>
+      <enlace:pais>España</enlace:pais>
+    </enlace:direccion>
+  </contacto>
+
+</agenda>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<banco nombre="Banco Fernández" pais="España">
+
+  <sucursal codigo="S001" ciudad="Madrid">
+    <cuenta codigo="C001">
+      <cliente id="CL001">
+        <nombre>Ana Gómez</nombre>
+        <dni>88664572A</dni>
+      </cliente>
+      <cliente id="CL002">
+        <nombre>Juan Pérez</nombre>
+        <dni>77884575F</dni>
+      </cliente>
+    </cuenta>
+
+    <cuenta codigo="C002">
+      <cliente id="CL003">
+        <nombre>María López</nombre>
+        <dni>99486561B</dni>
+      </cliente>
+    </cuenta>
+  </sucursal>
+
+  <sucursal codigo="S002" ciudad="Barcelona">
+    <cuenta codigo="C003">
+      <cliente id="CL004">
+        <nombre>Carlos Sánchez</nombre>
+        <dni>88457691C</dni>
+      </cliente>
+      <cliente id="CL005">
+        <nombre>Lucía Torres</nombre>
+        <dni>77448457N</dni>
+      </cliente>
+    </cuenta>
+  </sucursal>
+
+</banco>

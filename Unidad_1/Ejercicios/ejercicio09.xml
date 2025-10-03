@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<catalogo xmlns:dc="http://www.w3.org/2001/XMLSchema-instance">
-    <libro>
-        <titulo>El Quijote</titulo>
-        <dc:publisher>Anaya</dc:publisher>
-        <dc:date>1605</dc:date>
-    </libro>
-</catalogo>
