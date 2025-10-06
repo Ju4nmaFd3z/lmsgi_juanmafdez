@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE banco SYSTEM "banco.dtd">
 <banco nombre="Banco Fernández" pais="España">
 
   <sucursal codigo="S001" ciudad="Madrid">
-    <cuenta codigo="C001">
-      <cliente id="CL001">
+    <cuenta iban="C001">
+      <cliente>
         <nombre>Ana Gómez</nombre>
         <dni>88664572A</dni>
       </cliente>
-      <cliente id="CL002">
+      <cliente>
         <nombre>Juan Pérez</nombre>
         <dni>77884575F</dni>
       </cliente>
     </cuenta>
 
-    <cuenta codigo="C002">
-      <cliente id="CL003">
+    <cuenta iban="C002">
+      <cliente>
         <nombre>María López</nombre>
         <dni>99486561B</dni>
       </cliente>
@@ -22,12 +23,12 @@
   </sucursal>
 
   <sucursal codigo="S002" ciudad="Barcelona">
-    <cuenta codigo="C003">
-      <cliente id="CL004">
+    <cuenta iban="C003">
+      <cliente>
         <nombre>Carlos Sánchez</nombre>
         <dni>88457691C</dni>
       </cliente>
-      <cliente id="CL005">
+      <cliente>
         <nombre>Lucía Torres</nombre>
         <dni>77448457N</dni>
       </cliente>

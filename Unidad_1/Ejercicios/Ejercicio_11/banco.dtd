@@ -1,0 +1,11 @@
+<!ELEMENT banco (sucursal+)>
+<!ATTLIST banco nombre CDATA #REQUIRED>
+<!ATTLIST banco pais NMTOKEN #REQUIRED>
+<!ELEMENT sucursal (cuenta+)>
+<!ATTLIST sucursal codigo NMTOKEN #REQUIRED>
+<!ATTLIST sucursal ciudad NMTOKEN #REQUIRED>
+<!ELEMENT cuenta (cliente+)>
+<!ATTLIST cuenta iban NMTOKEN #REQUIRED>
+<!ELEMENT cliente (nombre,dni)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
